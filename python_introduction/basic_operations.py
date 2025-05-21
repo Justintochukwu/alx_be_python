@@ -1,0 +1,12 @@
+#Assign specific values to two variables
+number1 = 10
+number2 = 5
+
+#Performing operations
+sum = number1 + number2 
+difference = number1 - number2 
+product = number1 * number2 
+
+print(f"Addition of 10 and 5 is 15") 
+print(f"Subtraction of 10 and 5 is 5")
+print(f"Multiplication of 10 and 5 is 50")
