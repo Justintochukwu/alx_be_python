@@ -1,4 +1,4 @@
 hours = 2
-seconds = 3600 
+seconds = hours * 3600
 
-print("2 hour(s) is 7200 seconds")
+print("2 hours is 7200 seconds")
