@@ -9,7 +9,7 @@ def convert_to_fahrenheit(celsius):
 
 def main():
     try:
-        temp_input = input("Enter the temperature to convert (eg.,100): ").strip()
+        temp_input = input("Enter the temperature to convert:").strip()
         temp = float(temp_input)
     except ValueError:
         raise ValueError("Invalid tempereature. Please enter a numeric value.")
