@@ -6,13 +6,13 @@ class Book:
     def get_details(self):
         return f"{self.title} by {self.author}"
     
-class Ebook(Book):
+class EBook(Book):
     def __init__(self, title, author, file_size):
-        super().__init(title, author)
+        super().__init__(title, author)
         self.file_size = file_size
         
     def get_details(self):
-        return f"{super().get_details()} - EBook, File Size: {self.file_size}MB"
+        return f"{super().get_details()} [EBook, File Size: {self.file_size}]MB"
     
 class PrintBook(Book):
     def __init__(self, title, author, page_count):
